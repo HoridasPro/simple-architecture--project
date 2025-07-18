@@ -53,7 +53,7 @@ header{
 
 /* Banner Style */
  .banner_content{
-  max-width: 850px;
+  max-width: 820px;
   margin: 0 auto;
   margin-top: 100px;
  }
@@ -80,10 +80,52 @@ header{
   font-weight: 600;
   margin-top: 20px;
 }
- img{
-  max-width: 100%;
+.banner_container img{
+  max-width: 1150px;
   margin: 0 auto;
   display: block;
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+/* Feature Section Style */
+.container{
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.team_member img{
+  max-width: 100%;
+}
+.team_member{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 50px;
+  gap: 15px;
+}
+.feature{
+  color: #FF900E;
+}
+.btn{
+  background-color: #FF900E;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.feature_content{
+  max-width: 537px;
+  margin: auto;
+  margin-left: 50px;
+}
+.feature_h3{
+  font-size: 2.5rem;
+  max-width: 468px;
+}
+.feature_content p{
+  color: #424242;
+  font-size: 0.9rem;
+  color: #727272;
 }
  
