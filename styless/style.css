@@ -8,7 +8,7 @@
   font-family: "Work Sans", sans-serif;
 }
 header{
-  margin-top: 20px;
+  background-color: #FF900E1A;
 }
 /* Shared colors */
 .color_primary{
@@ -50,3 +50,40 @@ header{
   text-decoration: none;
   color: #424242;
 }
+
+/* Banner Style */
+ .banner_content{
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 100px;
+ }
+.banner_h1{
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.banner_p{
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.banner_button{
+  background-color: #FF900E;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+ img{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+ 
