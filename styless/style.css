@@ -85,12 +85,13 @@ header{
   margin: 0 auto;
   display: block;
   margin-top: 50px;
+  padding-bottom: 30px;
 }
 
 /* Feature Section Style */
 .container{
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-top: 60px;
 }
 .team_member img{
   max-width: 100%;
@@ -127,5 +128,69 @@ header{
   color: #424242;
   font-size: 0.9rem;
   color: #727272;
+}
+
+/* Love Feature Style  */
+.love_feature{
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  margin-top: 60px;
+
+}
+.love_contents{
+  width: 586px;
+}
+.love_content_h3{
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height:2.8rem;
+  border-left: 3px solid #FF900E;
+  padding-left: 15px;
+}
+.love_content_p{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.love_content_2{
+  box-shadow: 0 0  10px 0.5px #f3f2f2;
+  margin-top: 40px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.love_content_2 h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: #131313;
+  margin-bottom: 10px;
+}
+.love_content_2 p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+
+}
+.love_img img{
+  max-width: 100%;
+}
+.love_button{
+  background-color: #FF900E;
+  max-width: 290px;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 4rem;
+  font-weight: 700;
+  top: -60px;
+  left: -60px;
+  position: relative;
+}
+.love_span{
+  font-size: 1.1rem;
+  display: block;
+  color: #fff;
+  font-weight: 400;
 }
  
