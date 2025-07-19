@@ -34,6 +34,7 @@ header{
 .nav_container{
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
 }
 .nav_h3{
   font-size: 2rem;
@@ -83,6 +84,18 @@ header{
   font-weight: 600;
   margin-top: 20px;
 }
+.banner_button:hover{
+  background-color: #778beb;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
 .banner_container img{
   max-width: 1150px;
   margin: 0 auto;
@@ -118,6 +131,16 @@ header{
   font-weight: 600;
   margin-top: 20px;
 }
+.btn:hover{
+  background-color: #778beb;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
 .feature_content{
   max-width: 537px;
   margin: auto;
@@ -128,7 +151,6 @@ header{
   max-width: 468px;
 }
 .feature_content p{
-  color: #424242;
   font-size: 0.9rem;
   color: #727272;
 }
@@ -197,7 +219,6 @@ header{
 /* Some Fact Style */
 .fact_container{
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 .fact_h3{
   font-size: 2.5rem;
@@ -217,6 +238,7 @@ header{
   border: 1px solid #FF900E;
   padding: 2rem 1rem;
   text-align: center;
+  border-radius: 5px;
 }
 .fact_span{
   font-size: 2.3rem;
@@ -225,6 +247,51 @@ header{
 .fact_h5{
   font-size: 1rem;
   font-weight: 600;
+}
+/* Sponspor Section Style */
+.sponspor_container{
+  margin-bottom: 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+.all_sponsor_content{
+  width: 500px;
+  margin-left: 345px;
+}
+.sponspor_h3{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.cponspor_p{
+   font-size: 15px;
+   font-weight: 400;
+   margin-top: 20px;
+}
+.sponspor_logo_group{
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponspor_logo_group img{
+  max-width: 10%;
+  filter: grayscale(100%);
+}
+
+/* Footer Style */
+.footer{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.footer div{
+  background-color: #FFF4E7;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.span{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  display: block;
 }
  
  
